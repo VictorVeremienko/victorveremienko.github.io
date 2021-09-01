@@ -1,0 +1,45 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    height: 35px;
+    width: 150px;
+    padding: 15px;
+    margin: 10px;
+    background-color: indianred;
+    border: 1px solid black;
+    border-radius: 30px;
+
+}
+
+.button:hover {
+    background-color: #ff9900;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+    /* стили для больших планшетов - начало */
+
+}
+
+@media screen and (max-width: 767px) {
+    /* стили для средних планшетов - начало */
+
+}
+
+@media screen and (max-width: 479px) {
+    /* стили для телефонов - начало */
+    .button {
+        height: 35px;
+        width: 120px;
+        padding: 5px;
+        margin: 2px;
+    }
+
+}

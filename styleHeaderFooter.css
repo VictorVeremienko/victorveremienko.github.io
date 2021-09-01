@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    background: #689CD2;
+    color: white;
+    font-family: "MS UI Gothic";
+    font-weight: bold;
+    padding: 5px;
+}
+
+.container_header{
+    display: flex;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #689CD2;
+    color: white;
+    font-family: "MS UI Gothic";
+    font-size: 20px;
+    font-weight: bold;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+
+}
+
+@media screen and (max-width: 991px) {
+    /* стили для больших планшетов - начало */
+
+}
+
+@media screen and (max-width: 767px) {
+    /* стили для средних планшетов - начало */
+
+}
+
+@media screen and (max-width: 479px) {
+    /* стили для телефонов - начало */
+    .container_header{
+        height: max-content;
+    }
+}
